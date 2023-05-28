@@ -1,0 +1,18 @@
+[
+    {
+        "heading" : "heading1",
+        "content" : "value1",
+        "imageLink" : "imgsrc"
+    },
+    {
+        "heading" : "heading2",
+        "content" : "",
+        "imageLink" : "imgsrc"
+    },
+    {
+        "heading" : "heading3",
+        "content" : "value3",
+        "imageLink" : "imgsrc"
+    }
+
+]

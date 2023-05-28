@@ -1,0 +1,262 @@
+:root {
+	--primary-color: #ff4c68;
+	--secondary-color: #ffc5cc;
+	--accent-color: #ef8172;
+	--dark-color: #4b253a;
+	--light-color: #efe3e3;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+  background: white;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2px;
+	background-color: var(--primary-color);
+	color: var(--light-color);
+}
+
+.logo {
+	width: 100px;
+	border-radius: 50%;
+}
+.logo-container {
+	display: flex;
+	align-items: center; /* Align items vertically in the center */
+}
+.website-name {
+	margin-left: 10px;
+	font-size: 24px;
+	color: white;
+}
+
+.nav-items {
+	padding: 0 20px;
+}
+
+.nav-items > ul {
+	font-size: 20px;
+	display: flex;
+	list-style-type: none;
+}
+
+.nav-items > ul > li {
+	display: flex;
+	padding: 10px;
+	margin: 10px;
+	font-weight: bold;
+}
+.nav-items > ul > li:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.button {
+	background-color: var(--secondary-color);
+	color: var(--dark-color);
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.button:hover {
+	background-color: var(--accent-color);
+	color: var(--light-color);
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	color: var(--dark-color);
+}
+
+.container h1 {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.container form {
+	margin-bottom: 20px;
+}
+
+.container label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.container input[type="date"] {
+	width: 100%;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid var(--dark-color);
+}
+
+.container input[type="submit"] {
+	background-color: var(--secondary-color);
+	color: var(--dark-color);
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+  margin-top: 5px;
+	cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+	background-color: var(--accent-color);
+	color: var(--light-color);
+}
+
+.container #cycle-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.container #cycle-table th,
+.container #cycle-table td {
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid var(--dark-color);
+}
+
+.container #cycle-table th {
+	font-weight: bold;
+}
+
+.container #cycle-table tbody tr:nth-child(even) {
+	background-color: var(--light-color);
+}
+
+.container #cycle-table tbody tr:last-child td {
+	border-bottom: none;
+}
+
+
+/* Link */
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  color: var(--dark-color);
+  overflow: hidden; /* Add this line */
+}
+
+.title-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title-section h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.title-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: var(--accent-color);
+}
+
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.features-section {
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.features-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+.feature-card img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.cta-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cta-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cta-section p {
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 20px;
+  text-align: center;
+
+}
